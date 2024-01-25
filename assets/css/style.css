@@ -369,6 +369,7 @@ header a {
 }
 
 .clients-grid {
+  margin: auto;
   display: flex;
   width: 100%;
   max-width: 2400px;
@@ -397,7 +398,39 @@ header a {
   align-items: center;
   justify-content: center;
 }
+
 /* #endregion CLIENTS */
+
+/* #region CALL TO ACTION */
+
+.call-to-action {
+  background-color: var(--jumbotron);
+  height: 300px;
+}
+
+.call-to-action .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.call-to-action h2 {
+  color: var(--free-try);
+  font-size: 2.3rem;
+  width: 60%;
+}
+
+.call-to-action button {
+  padding: 7px 40px;
+  background-color: #fff;
+}
+
+.call-to-action a {
+  color: black;
+}
+
+/* #endregion CALL TO ACTION */
 
 /* #endregion MAIN */
 
