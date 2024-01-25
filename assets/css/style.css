@@ -43,6 +43,23 @@ button a {
   --lonely-planet: #0d2481;
 }
 
+/* #region UTILITIES */
+.container {
+  width: 60%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.vertical-align {
+  display: flex;
+  align-items: center;
+}
+
+.col-4 {
+  width: calc(100% / 12 * 4 - (40px / 3));
+}
+/* #endregion UTILITIES */
+
 /* #region HEADER */
 header {
   /* background-color: red; */
@@ -265,6 +282,7 @@ header a {
 /* #region PARTNERSHIP */
 .partnership {
   display: flex;
+  margin-bottom: 150px;
 }
 
 .partnership-img {
@@ -300,27 +318,39 @@ header a {
 }
 /* #endregion PARTNERSHIP */
 
+/* #region BUSINESS */
+.business h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.business-cols {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.business-col {
+  padding: 20px 20px 0 20px;
+  min-width: 360px;
+}
+
+.business-col img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.business-col h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+/* #endregion BUSINESS */
+
 /* #endregion MAIN */
 
 /* #region FOOTER */
 /* #endregion FOOTER */
-
-/* #region UTILITIES */
-.container {
-  width: 60%;
-  max-width: 1200px;
-  margin: auto;
-}
-
-.vertical-align {
-  display: flex;
-  align-items: center;
-}
-
-.col-4 {
-  width: calc(100% / 12 * 4 - (40px / 3));
-}
-/* #endregion UTILITIES */
 
 /* #region HOVERS */
 /* #endregion HOVERS */
