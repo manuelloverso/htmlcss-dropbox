@@ -6,7 +6,6 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  padding-bottom: 200px;
 }
 
 a {
@@ -463,6 +462,59 @@ header a {
 /* #endregion MAIN */
 
 /* #region FOOTER */
+
+footer {
+  background-color: var(--dark-text);
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+.footer-container {
+  width: 70%;
+  height: 100%;
+  margin: auto;
+  max-width: 1450px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.footer-column h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.footer-column p {
+  margin-bottom: 10px;
+}
+
+.footer-column a {
+  color: white;
+}
+
+.footer-border {
+  width: 120px;
+  border-top: 1px solid white;
+  margin-bottom: 40px;
+}
+
+.language {
+  color: gray;
+}
+
+.language i {
+  margin-right: 5px;
+}
+
+.icon-align {
+  vertical-align: text-bottom;
+}
+
 /* #endregion FOOTER */
 
 /* #region HOVERS */
