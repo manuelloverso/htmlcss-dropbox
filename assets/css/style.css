@@ -9,6 +9,20 @@ body {
 }
 
 :root {
+  --dark-text: #000000;
+  --jumbotrone: #b4d0e7;
+  --buttons: #0061ff;
+  --withe-bg: #ffffff;
+  --free-try: #61092c;
+
+  --designit: #a2d39b;
+  --florida: #0093ce;
+  --arizona: #61082b;
+  --topps: #ff1c1c;
+  --hearst: #b4d0e7;
+  --clear-channel: #ffd830;
+  --world-bicycle: #d5001f;
+  --lonely-planet: #0d2481;
 }
 
 /* #region HEADER */
