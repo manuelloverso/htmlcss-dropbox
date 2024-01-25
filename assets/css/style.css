@@ -149,6 +149,12 @@ header a {
   margin-right: 70px;
 }
 
+.cards-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 .card {
   border: 1px solid gainsboro;
   margin-bottom: 200px;
@@ -165,7 +171,7 @@ header a {
 
 .target {
   text-align: center;
-  padding: 7px;
+  padding: 10px;
   border-bottom: 1px solid gainsboro;
 }
 
