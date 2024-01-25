@@ -131,6 +131,109 @@ header a {
 
 /* #endregion JUMBOTRON */
 
+/* #region SUBSCRIPTION */
+.subscription {
+  padding-top: 150px;
+}
+
+.find-your-plan {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+}
+
+.billing {
+  margin-bottom: 40px;
+}
+
+.billing label {
+  margin-right: 70px;
+}
+
+.card {
+  border: 1px solid gainsboro;
+  margin-bottom: 200px;
+}
+
+.card-bottom {
+  padding: 30px;
+}
+
+.card h4 {
+  font-size: 1.9rem;
+  margin-bottom: 20px;
+}
+
+.target {
+  text-align: center;
+  padding: 7px;
+  border-bottom: 1px solid gainsboro;
+}
+
+.target-icon {
+  margin-right: 7px;
+}
+
+.price {
+  margin-bottom: 10px;
+}
+
+.payment {
+  color: #8b8b8b;
+  margin-bottom: 40px;
+}
+
+.card .free-try {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.free-try {
+  margin-bottom: 30px;
+}
+
+.buy-now a {
+  text-decoration: underline;
+  color: blue;
+}
+
+.small-border {
+  width: 70px;
+  border-top: 1px solid gainsboro;
+  margin: 30px 0;
+}
+
+.benefits-list div {
+  margin-bottom: 20px;
+}
+
+.benefits-list div:last-child {
+  margin-bottom: 50px;
+}
+
+.benefits-list i {
+  margin-right: 5px;
+}
+
+.card h5 {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.highlights {
+  margin-bottom: 15px;
+}
+
+.highlights:last-child {
+  margin-bottom: 0;
+}
+
+.highlights i {
+  color: var(--buttons-bg);
+  margin-right: 5px;
+}
+/* #endregion SUBSCRIPTION */
+
 /* #endregion MAIN */
 
 /* #region FOOTER */
@@ -146,6 +249,10 @@ header a {
 .vertical-align {
   display: flex;
   align-items: center;
+}
+
+.col-4 {
+  width: calc(100% / 12 * 4);
 }
 /* #endregion UTILITIES */
 
