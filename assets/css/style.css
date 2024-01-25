@@ -153,11 +153,12 @@ header a {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  justify-content: center;
 }
 
 .card {
   border: 1px solid gainsboro;
-  margin-bottom: 200px;
+  min-width: 360px;
 }
 
 .card-bottom {
@@ -206,7 +207,7 @@ header a {
 .small-border {
   width: 70px;
   border-top: 1px solid gainsboro;
-  margin: 30px 0;
+  margin: 50px 0;
 }
 
 .benefits-list div {
@@ -223,11 +224,11 @@ header a {
 
 .card h5 {
   font-size: 1rem;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .highlights {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .highlights:last-child {
@@ -258,7 +259,7 @@ header a {
 }
 
 .col-4 {
-  width: calc(100% / 12 * 4);
+  width: calc(90% / 12 * 4);
 }
 /* #endregion UTILITIES */
 
