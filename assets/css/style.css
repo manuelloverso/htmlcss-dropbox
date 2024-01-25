@@ -8,11 +8,29 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: var(--dark-text);
+  font-family: "Open Sans", sans-serif;
+}
+
+button {
+  background-color: var(--buttons-bg);
+  border: none;
+  font-size: 1rem;
+}
+
+button a {
+  color: var(--color-button);
+}
+
 :root {
   --dark-text: #000000;
   --jumbotrone: #b4d0e7;
-  --buttons: #0061ff;
+  --buttons-bg: #0061ff;
   --withe-bg: #ffffff;
+  --color-button: #ffffff;
+
   --free-try: #61092c;
 
   --designit: #a2d39b;
@@ -26,6 +44,41 @@ body {
 }
 
 /* #region HEADER */
+header {
+  background-color: red;
+  height: 80px;
+}
+
+.header-container {
+  height: 100%;
+  width: 98%;
+  max-width: 2200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a {
+  font-size: 1rem;
+}
+
+.header-left > * {
+  margin-right: 30px;
+}
+
+.header-left .logo {
+  padding-bottom: 5px;
+}
+
+.header-right > * {
+  margin-left: 30px;
+}
+
+.get-started {
+  padding: 5px 15px;
+}
+
 /* #endregion HEADER */
 
 /* #region MAIN */
@@ -35,6 +88,10 @@ body {
 /* #endregion FOOTER */
 
 /* #region UTILITIES */
+.vertical-align {
+  display: flex;
+  align-items: center;
+}
 /* #endregion UTILITIES */
 
 /* #region HOVERS */
