@@ -406,6 +406,7 @@ header a {
 .call-to-action {
   background-color: var(--jumbotron);
   height: 300px;
+  margin-bottom: 150px;
 }
 
 .call-to-action .container {
@@ -431,6 +432,33 @@ header a {
 }
 
 /* #endregion CALL TO ACTION */
+
+/* #region FAQ */
+.faq {
+  margin-bottom: 100px;
+}
+
+.faq h2 {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+}
+
+.question {
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgb(153, 153, 153);
+}
+
+.question:last-child {
+  border-bottom: 1px solid rgb(153, 153, 153);
+}
+
+.question i {
+  padding: 0 40px;
+}
+/* #endregion FAQ */
 
 /* #endregion MAIN */
 
