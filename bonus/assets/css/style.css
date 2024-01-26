@@ -97,6 +97,7 @@ button a {
 /* #endregion UTILITIES */
 
 /* #region HEADER */
+
 header {
   /* background-color: red; */
   height: 80px;
@@ -112,20 +113,54 @@ header {
   align-items: center;
 }
 
+.header-right,
+.header-left {
+  display: flex;
+}
+
+.link,
+.logo {
+  padding: 15px;
+}
+
+.header-right > * {
+  padding: 15px;
+}
+
+.header-right a:hover {
+  background-color: var(--middle-designit);
+}
+
 header a {
   font-size: 1rem;
 }
 
-.header-left > * {
-  margin-right: 30px;
+.dropdown-menu {
+  position: relative;
 }
 
-.header-left .logo {
-  padding-bottom: 5px;
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 230px;
+  background-color: var(--middle-designit);
 }
 
-.header-right > * {
-  margin-left: 30px;
+.dropdown-content a {
+  display: block;
+  padding: 15px;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(204, 204, 204);
+}
+
+.link:hover {
+  background-color: var(--middle-designit);
+}
+
+.dropdown-menu:hover .dropdown-content {
+  display: block;
 }
 
 .get-started {
