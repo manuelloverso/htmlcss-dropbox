@@ -549,16 +549,29 @@ header a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.question-reply {
   border-top: 1px solid rgb(153, 153, 153);
 }
 
-.question:last-child {
+.question-reply:last-child {
   border-bottom: 1px solid rgb(153, 153, 153);
 }
 
 .question i {
   padding: 0 40px;
 }
+
+.answer {
+  display: none;
+  padding-bottom: 20px;
+}
+
+.question-reply:hover .answer {
+  display: block;
+}
+
 /* #endregion FAQ */
 
 /* #endregion MAIN */
