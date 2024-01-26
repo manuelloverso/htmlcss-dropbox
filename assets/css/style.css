@@ -56,7 +56,7 @@ button a {
 }
 
 .col-4 {
-  width: calc(100% / 12 * 4 - (40px / 3));
+  width: calc(90% / 12 * 4);
 }
 /* #endregion UTILITIES */
 
@@ -170,14 +170,13 @@ header a {
 .cards-section {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
+  justify-content: space-between;
   margin-bottom: 50px;
 }
 
 .card {
   border: 1px solid gainsboro;
-  min-width: 360px;
+  min-width: 340px;
 }
 
 .card-bottom {
@@ -213,6 +212,10 @@ header a {
   width: 100%;
   text-align: center;
   padding: 10px 0;
+}
+
+.fixed-height {
+  height: 380px;
 }
 
 .free-try {
@@ -330,13 +333,12 @@ header a {
 
 .business-cols {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
-  gap: 20px;
 }
 
 .business-col {
-  padding: 20px 20px 0 20px;
+  padding: 40px 20px 0 20px;
   min-width: 360px;
 }
 
@@ -371,26 +373,24 @@ header a {
   margin: auto;
   display: flex;
   width: 100%;
-  max-width: 2400px;
+  max-width: 2500px;
 }
 
 .left-grid,
-.right-grid {
-  width: 600px;
-  height: 600px;
+.right-grid,
+.center-grid {
+  flex-grow: 1;
+  aspect-ratio: 1;
   display: flex;
   flex-wrap: wrap;
 }
 
 .center-grid {
-  flex-grow: 1;
   background-color: var(--middle-designit);
-  min-width: 700px;
 }
 
 .client-square {
   background-color: red;
-  border: 1px solid black;
   width: 50%;
   height: 50%;
   display: flex;
