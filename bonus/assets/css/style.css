@@ -127,8 +127,20 @@ header {
   padding: 15px;
 }
 
+.header-right {
+  & button a:hover {
+    background-color: var(--buttons-bg);
+  }
+}
+
 .header-right a:hover {
   background-color: var(--middle-designit);
+}
+
+.header-right {
+  & button a:hover {
+    background-color: var(--buttons-bg);
+  }
 }
 
 header a {
