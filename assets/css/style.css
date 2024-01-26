@@ -434,6 +434,21 @@ header a {
   filter: invert();
 }
 
+.center-grid img {
+  width: 40%;
+}
+
+.center-grid {
+  flex-direction: column;
+  padding: 50px;
+  gap: 30px;
+}
+
+.central-square-border {
+  width: 80px;
+  border-top: 1px solid gainsboro;
+}
+
 /* #endregion CLIENTS */
 
 /* #region CALL TO ACTION */
