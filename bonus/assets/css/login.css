@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: var(--dark-text);
+  background-color: red;
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark-text);
+  font-family: "Open Sans", sans-serif;
+}
+
+:root {
+  --dark-text: #000000;
+  --jumbotron: #b4d0e7;
+  --buttons-bg: #0061ff;
+  --withe-bg: #ffffff;
+  --color-button: #ffffff;
+  --free-try: #61092c;
+
+  --designit: #a2d39b;
+  --middle-designit: #f5f5f5;
+  --florida: #0093ce;
+  --arizona: #61082b;
+  --topps: #ff1c1c;
+  --hearst: #b4d0e7;
+  --clear-channel: #ffd830;
+  --world-bicycle: #d5001f;
+  --lonely-planet: #0d2481;
+}
+
+/* #region HEADER */
+
+/* #endregion HEADER */
