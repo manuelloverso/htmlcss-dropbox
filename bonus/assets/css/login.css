@@ -11,7 +11,7 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   color: var(--dark-text);
-  background-color: red;
+  padding-bottom: 300px;
 }
 
 a {
@@ -40,5 +40,22 @@ a {
 }
 
 /* #region HEADER */
+
+header {
+  border-bottom: 1px solid gainsboro;
+}
+
+.header-container {
+  width: 98%;
+  max-width: 2200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  & > div {
+    padding: 10px;
+  }
+}
 
 /* #endregion HEADER */
