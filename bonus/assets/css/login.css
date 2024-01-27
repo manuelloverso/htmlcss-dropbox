@@ -43,6 +43,7 @@ a {
 
 header {
   border-bottom: 1px solid gainsboro;
+  margin-bottom: 80px;
 }
 
 .header-container {
@@ -59,3 +60,106 @@ header {
 }
 
 /* #endregion HEADER */
+
+/* #region MAIN */
+
+.login-form {
+  width: 370px;
+  margin: auto;
+}
+
+.login-form > * {
+  width: 100%;
+}
+
+.login-form h4 {
+  font-size: 1.7rem;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.google,
+.apple {
+  padding: 12px;
+  font-size: 0.9rem;
+  background-color: #fff;
+  cursor: pointer;
+  border: 1px solid rgb(188, 188, 188);
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+
+  & span {
+    flex-grow: 1;
+  }
+}
+
+.google {
+  border-radius: 5px;
+  border-color: gainsboro;
+}
+
+.google:hover {
+  background-color: #fbfcff;
+  border-color: #d2e3fc;
+}
+
+.apple:hover {
+  background-color: rgba(0, 0, 0, 0.077);
+}
+
+.or {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+
+  & .blank {
+    flex-grow: 1;
+    border-top: 1px solid gainsboro;
+  }
+
+  & span {
+    padding: 0 10px;
+  }
+}
+
+.email label {
+  color: rgb(188, 188, 188);
+  font-size: 0.9;
+}
+
+.email input {
+  margin-top: 5px;
+  margin-bottom: 15px;
+
+  width: 100%;
+  padding: 15px;
+  font-size: 0.9rem;
+  color: rgb(188, 188, 188);
+  border: 1px solid rgb(188, 188, 188);
+}
+
+.email input:hover,
+.email label:hover .email-input {
+  border-color: black;
+}
+
+.email input:focus-visible {
+  outline: 2px solid var(--buttons-bg);
+}
+
+.continue {
+  padding: 15px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+  color: #fff;
+  background-color: var(--buttons-bg);
+  border: none;
+}
+
+.continue:hover {
+  background-color: blue;
+}
+
+/* #endregion MAIN */
