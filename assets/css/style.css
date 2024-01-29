@@ -22,6 +22,11 @@ button {
   background-color: var(--buttons-bg);
   border: none;
   font-size: 1rem;
+  transition: box-shadow 0.4s, background-color 0.4s;
+}
+
+button:hover {
+  background-color: var(--button-blue-hover);
 }
 
 button a {
@@ -103,6 +108,7 @@ header {
   width: 100%;
   box-shadow: 0px -2px 6px 0px;
   background-color: white;
+  z-index: 2;
 }
 
 .header-container {
@@ -180,6 +186,7 @@ header button:hover {
 
 .txt {
   width: 30%;
+  margin-bottom: 20px;
 }
 
 .txt p:first-child {
@@ -196,10 +203,12 @@ header button:hover {
 
 .pic {
   width: 70%;
+  position: relative;
 }
 
 .jumbo-img {
   width: 100%;
+  position: absolute;
 }
 
 /* #endregion JUMBOTRON */
@@ -231,7 +240,6 @@ header button:hover {
 
 .card {
   border: 1px solid gainsboro;
-  min-width: 340px;
 }
 
 .card-bottom {
@@ -371,6 +379,10 @@ header button:hover {
   padding: 15px;
 }
 
+.partnership button:hover {
+  background-color: #00000022;
+}
+
 .partnership a {
   color: black;
 }
@@ -500,6 +512,10 @@ header button:hover {
   background-color: #fff;
 }
 
+.call-to-action button:hover {
+  box-shadow: 0px 0px 12px 0px;
+}
+
 .call-to-action a {
   color: black;
 }
@@ -516,12 +532,28 @@ header button:hover {
   margin-bottom: 50px;
 }
 
+.question-reply {
+  border-top: 1px solid rgb(153, 153, 153);
+}
+
+.question-reply:last-child {
+  border-bottom: 1px solid rgb(153, 153, 153);
+}
+
 .question {
   height: 90px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: 1px solid rgb(153, 153, 153);
+}
+
+.answer {
+  display: none;
+  padding-bottom: 20px;
+}
+
+.question-reply:hover .answer {
+  display: block;
 }
 
 .question:last-child {
