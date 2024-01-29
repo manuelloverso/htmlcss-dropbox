@@ -159,7 +159,7 @@ header button:hover {
 .jumbotron {
   background-color: var(--jumbotron);
   padding-top: 150px;
-  height: 750px;
+  height: 800px;
 }
 
 .jumbo-btn {
