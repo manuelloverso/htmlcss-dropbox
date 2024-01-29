@@ -452,10 +452,6 @@ header button:hover {
   flex-wrap: wrap;
 }
 
-.selected {
-  box-shadow: #ccfec6 0px 0px 0px 17px inset;
-}
-
 .center-grid {
   background-color: var(--middle-designit);
 }
